@@ -15,7 +15,6 @@ const Header = () => (
       <li><h3>Boton 3</h3></li>
 
     </ul>
-    {/* <div className="header-border" /> */}
   </nav>
 );
 

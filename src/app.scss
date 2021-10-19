@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Italianno&family=Lato:wght@100&family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Italianno&family=Lato:wght@300&family=Righteous&display=swap');
 
 $color-black: black;
 $color-blue: blue;
@@ -7,6 +7,10 @@ $color-white: white;
 $h-font: 'Righteous', cursive;
 $p-font: 'Lato', sans-serif;
 $y-font: 'Italianno', cursive;
+
+body {
+  margin: 0;
+}
 
 .App {
   position: absolute;
@@ -27,6 +31,7 @@ $y-font: 'Italianno', cursive;
     padding: 0;
     justify-content: center;
     align-items: center;
+    box-sizing: border-box;
   }
 
   p {
@@ -37,6 +42,24 @@ $y-font: 'Italianno', cursive;
     width: auto;
     height: fit-content;
   }
+
+  .body-content {
+    padding: 1rem;
+  }
+
+  .service-list {
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    li {
+      width: auto;
+    }
+  }
+
+  .spacer {
+    min-height: 4rem;
+  }
 }
 
 @import './Header/header.scss';
+@import './Service/service.scss';

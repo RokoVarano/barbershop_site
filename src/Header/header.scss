@@ -25,12 +25,15 @@
     box-shadow: 0.2rem 0.2rem $color-black;
     border-radius: 1rem;
 
+    .header-title, .header-subtitle {
+      -webkit-text-stroke-width: 1px;
+      -webkit-text-stroke-color: $color-black;
+    }
+
     .header-title {
       font-size: 3rem;
       color: $color-white;
       height: 5.5rem;
-      -webkit-text-stroke-width: 1px;
-      -webkit-text-stroke-color: $color-black;
 
       .alphaKayser {
         z-index: 2;

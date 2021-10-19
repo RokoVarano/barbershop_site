@@ -1,0 +1,32 @@
+.service-box {
+  justify-content: flex-start;
+  align-items:flex-start;
+  flex-direction: column;
+  width: 20rem;
+  position: relative;
+  background: $color-black;
+  color: $color-white;
+
+  .service-picture {
+    background-color: greenyellow;
+    height:20rem;
+  }
+
+  legend, p {
+    width: auto;
+  }
+
+  legend {
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: $color-black;
+    margin-left: 1rem;
+  }
+
+  p {
+    color: $color-white;
+    text-align: justify;
+    margin-left: 1rem;
+    margin-right: 0.5rem;
+    margin-bottom: 0.5rem;
+  }
+}
