@@ -1,11 +1,12 @@
 import React from 'react';
 import './app.scss';
+import Contact from './Contacto/Contact';
 import Header from './Header/Header';
 import Presentation from './Presentation/Presentation';
 import Service from './Service/Service';
 
 function App() {
-  const serviceText = 'Rugged et tony stark mouthbrow furry facial friend, horseshoe furry facial friend mouthbrow rugged et tony stark timothy dalton che guevara, horseshoe man of the year 1986 furry facial friend che guevara tony stark circus strongman timothy dalton mouthbrow timothy dalton cunning like a fox arcu nefarious iron tache rugged et? ';
+  const serviceText = 'Rugged et tony stark mouthbrow furry facial friend, horseshoe furry facial friend mouthbrow rugged et tony stark timothy dalton che guevara';
 
   return (
     <div className="App">
@@ -34,7 +35,9 @@ function App() {
         </ul>
         <div className="spacer" />
         <Presentation />
+        <div className="spacer" />
       </div>
+      <Contact />
     </div>
   );
 }

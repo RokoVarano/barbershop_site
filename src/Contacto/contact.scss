@@ -1,0 +1,47 @@
+.footer-box {
+  background: $color-black;
+  color: $color-white;
+  padding: 1rem;
+  justify-content: space-evenly;
+
+  .footer-about {
+    flex-direction: column;
+    width:auto;
+
+    .footer-item {
+      justify-content: flex-start;
+      padding-bottom: 1rem;
+
+      p, h2 {
+        width: auto;
+      }
+    }
+
+    .footer-contactme {
+      white-space: nowrap;
+      width: auto;
+
+      i {
+        padding-right: 1rem;
+      }
+
+      .fa-whatsapp {
+        color: $color-whatsapp;
+      }
+
+      .fa-facebook {
+        color: $color-blue;
+      }
+
+      .fa-instagram {
+        color: $color-instagram;
+      }
+    }
+  }
+
+  .footer-map {
+    background: hotpink;
+    width: 25vh;
+    height: 25vh;
+  }
+}

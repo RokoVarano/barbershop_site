@@ -13,6 +13,7 @@ const Service = (props) => {
         {price}
       </h4>
       <p>{text}</p>
+      <h2>AGENDA AQUI!</h2>
     </fieldset>
   );
 };

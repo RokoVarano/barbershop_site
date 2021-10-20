@@ -1,6 +1,9 @@
 .presentation-box {
   border: 1px $color-black solid;
   padding: 1rem;
+  color: $color-white;
+  background-color: $color-black-transparent;
+
 
   .presentation-picture {
     background-color: hotpink;
@@ -12,15 +15,37 @@
     height: 100%;
     justify-content: flex-start;
     padding: 0 1rem;
+    position: relative;
 
     h1 {
       font-size: 5rem;
+      width:auto;
+      border-bottom: 0.2rem $color-blue solid;
     }
 
     p {
       font-size: 2.5rem;
       text-align: justify;
       line-height: 3rem;
+      z-index: 2;
+    }
+
+    i {
+      width: auto;
+      padding-right: 1rem;
+    }
+
+    .contact-data {
+      white-space: nowrap;
+    }
+
+    .presentation-square {
+      height: 15rem;
+      width: 15rem;
+      position: absolute;
+      bottom: 5rem;
+      right: 7rem;
+      background-color: $color-blue;
     }
   }
 }

@@ -24,6 +24,7 @@
     padding-right: 2rem;
     box-shadow: 0.2rem 0.2rem $color-black;
     border-radius: 1rem;
+    background-color: $color-black-transparent;
 
     .header-title, .header-subtitle {
       -webkit-text-stroke-width: 1px;
@@ -44,6 +45,7 @@
   .button-list {
     max-width: 720px;
     height: 100%;
+    z-index: 1;
 
     li {
       justify-content: center;

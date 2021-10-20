@@ -1,9 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Italianno&family=Lato:wght@300&family=Righteous&display=swap');
+@import url('https://pro.fontawesome.com/releases/v5.10.0/css/all.css');
 
 $color-black: black;
 $color-blue: blue;
 $color-red: red;
 $color-white: white;
+$color-whatsapp: rgb(8, 194, 8);
+$color-instagram: rgb(230,72,94);
+$color-black-transparent: rgba(0, 0, 0, 0.672);
 $h-font: 'Righteous', cursive;
 $p-font: 'Lato', sans-serif;
 $y-font: 'Italianno', cursive;
@@ -22,6 +26,7 @@ body {
   font-family: $h-font;
   overflow-y: auto;
   flex-direction: column;
+  background-color: orange;
 
   * {
     display: flex;
@@ -50,7 +55,7 @@ body {
 
   .service-list {
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: space-evenly;
 
     li {
       width: auto;
@@ -65,3 +70,4 @@ body {
 @import './Header/header.scss';
 @import './Service/service.scss';
 @import './Presentation/presentation.scss';
+@import './Contacto/contact.scss';
