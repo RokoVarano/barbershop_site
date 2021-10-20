@@ -1,6 +1,7 @@
 import React from 'react';
 import './app.scss';
 import Header from './Header/Header';
+import Presentation from './Presentation/Presentation';
 import Service from './Service/Service';
 
 function App() {
@@ -30,25 +31,9 @@ function App() {
           <li>
             <Service title="corte" text={serviceText} price="4000" />
           </li>
-          <li>
-            <Service title="corte" text={serviceText} price="4000" />
-          </li>
-          <li>
-            <Service title="corte" text={serviceText} price="4000" />
-          </li>
-          <li>
-            <Service title="corte" text={serviceText} price="4000" />
-          </li>
-          <li>
-            <Service title="corte" text={serviceText} price="4000" />
-          </li>
-          <li>
-            <Service title="corte" text={serviceText} price="4000" />
-          </li>
-          <li>
-            <Service title="corte" text={serviceText} price="4000" />
-          </li>
         </ul>
+        <div className="spacer" />
+        <Presentation />
       </div>
     </div>
   );

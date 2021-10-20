@@ -1,0 +1,26 @@
+.presentation-box {
+  border: 1px $color-black solid;
+  padding: 1rem;
+
+  .presentation-picture {
+    background-color: hotpink;
+    height: 90vh;
+  }
+
+  .presentation-about {
+    flex-direction: column;
+    height: 100%;
+    justify-content: flex-start;
+    padding: 0 1rem;
+
+    h1 {
+      font-size: 5rem;
+    }
+
+    p {
+      font-size: 2.5rem;
+      text-align: justify;
+      line-height: 3rem;
+    }
+  }
+}

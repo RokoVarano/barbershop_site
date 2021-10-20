@@ -45,11 +45,12 @@ body {
 
   .body-content {
     padding: 1rem;
+    flex-direction: column;
   }
 
   .service-list {
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-around;
 
     li {
       width: auto;
@@ -63,3 +64,4 @@ body {
 
 @import './Header/header.scss';
 @import './Service/service.scss';
+@import './Presentation/presentation.scss';
