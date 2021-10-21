@@ -62,6 +62,16 @@ body {
     }
   }
 
+  a {
+    text-decoration: none;
+    color: $color-blue;
+    font-weight: 300;
+
+    :hover {
+      font-weight: 600;
+    }
+  }
+
   .spacer {
     min-height: 4rem;
   }

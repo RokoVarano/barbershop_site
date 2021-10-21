@@ -3,7 +3,7 @@ import React from 'react';
 const Contact = () => (
   <footer className="footer-box">
     <ul className="footer-about">
-      <li className="footer-item"><p>Metro Simon Bolivar</p></li>
+      <li className="footer-item"><a href="https://goo.gl/maps/1KES6xEo1fzvzwYC8" target="_blank" rel="noreferrer"><p>Metro Simon Bolivar</p></a></li>
       <li className="footer-item">
         <p className="footer-contactme">
           <i className="fab fa-whatsapp" />
